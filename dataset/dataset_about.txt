@@ -1,0 +1,46 @@
+About Dataset
+This dataset captures a comprehensive set of logistics and supply chain operations, specifically collected from a logistics network in Southern California. The data spans from January 2021 to January 2024, encompassing various aspects of transportation, warehouse management, route planning, and real-time monitoring. It includes detailed hourly records of logistics activities, reflecting conditions in urban areas and transport corridors known for high traffic and dynamic operational challenges.
+
+The dataset is collected from various sources, such as GPS tracking systems, IoT sensors, warehouse management systems, and external data providers. It covers different transportation modes, including trucks, drones, and rail, providing insights into operational efficiency, risk factors, and service reliability. The data has been anonymized and processed to ensure privacy while preserving the information needed for analysis.
+
+Features Overview
+The dataset includes a variety of features that represent different aspects of logistics operations:
+
+Timestamp: The date and time when the data was recorded (hourly resolution).
+Vehicle GPS Latitude: The latitude coordinate indicating the location of the vehicle.
+Vehicle GPS Longitude: The longitude coordinate indicating the location of the vehicle.
+Fuel Consumption Rate: The rate of fuel consumption recorded for the vehicle in liters per hour.
+ETA Variation (hours): The difference between the estimated and actual arrival times.
+Traffic Congestion Level: The level of traffic congestion affecting the logistics route (scale 0-10).
+Warehouse Inventory Level: The current inventory levels at the warehouse (units).
+Loading/Unloading Time: The time taken for loading or unloading operations in hours.
+Handling Equipment Availability: Availability status of equipment like forklifts (0 = unavailable, 1 = available).
+Order Fulfillment Status: Status indicating whether the order was fulfilled on time (0 = not fulfilled, 1 = fulfilled).
+Weather Condition Severity: The severity of weather conditions affecting operations (scale 0-1).
+Port Congestion Level: The level of congestion at the port (scale 0-10).
+Shipping Costs: The costs associated with the shipping operations in USD.
+Supplier Reliability Score: A score indicating the reliability of the supplier (scale 0-1).
+Lead Time (days): The average time taken for a supplier to deliver materials.
+Historical Demand: The historical demand for logistics services (units).
+IoT Temperature: The temperature recorded by IoT sensors in degrees Celsius.
+Cargo Condition Status: Condition status of the cargo based on IoT monitoring (0 = poor, 1 = good).
+Route Risk Level: The risk level associated with a particular logistics route (scale 0-10).
+Customs Clearance Time: The time required to clear customs for shipments.
+Driver Behavior Score: An indicator of the driver's behavior based on driving patterns (scale 0-1).
+Fatigue Monitoring Score: A score indicating the level of driver fatigue (scale 0-1).
+Target Variables (Labels)
+The dataset also includes several target variables for predictive modeling:
+
+Disruption Likelihood Score: A score predicting the likelihood of a disruption occurring (scale 0-1).
+Delay Probability: The probability of a shipment being delayed (scale 0-1).
+Risk Classification: A categorical classification indicating the level of risk (Low Risk, Moderate Risk, High Risk).
+Delivery Time Deviation: The deviation in hours from the expected delivery time.
+Use Cases
+This dataset can be used for various applications in logistics and supply chain management, including:
+
+Predictive modeling for risk assessment and disruption detection.
+Optimization of routing and scheduling to minimize delays.
+Predictive maintenance for logistics vehicles.
+Analysis of the impact of external factors such as traffic and weather on delivery times.
+Enhancing warehouse and inventory management practices.
+The dataset provides a real-world scenario to apply machine learning techniques, allowing for improvements in logistics efficiency and risk management strategies.

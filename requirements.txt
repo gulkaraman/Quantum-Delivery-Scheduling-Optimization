@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+pyqubo
+dimod
+dwave-ocean-sdk
+qiskit
+pennylane
+ortools
